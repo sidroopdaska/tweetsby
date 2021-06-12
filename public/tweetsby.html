@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tweets.by</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+
+<body>
+    <h1>tweets.by</h1>
+    <p>A light-weight service to filter tweets by a user.</p>
+
+    <!-- popular.tweets.by -->
+    <br />
+    <h3>popular.tweets.by/[username]</h3>
+    <p>View the user's popular tweets. Try it:</p>
+    <form method='POST' action="/popular">
+        <input type="text" name="username" placeholder="Twitter username" />
+        <input type="submit" value="Navigate" />
+    </form>
+    <p>Live example: <a href='http://popular.tweets.by/elonmusk' target="_blank">popular.tweets.by/elonmusk</a></p>
+    <br />
+
+    <!-- today.tweets.by -->
+    <br />
+    <h3>today.tweets.by/[username]</h3>
+    <p>See the tweets published today the user. Try it:</p>
+    <form method='POST' action="/today">
+        <input type="text" name="username" placeholder="Twitter username" />
+        <input type="submit" value="Navigate" />
+    </form>
+    <p>Live example: <a href='http://today.tweets.by/elonmusk' target="_blank">today.tweets.by/elonmusk</a></p>
+    <br />
+
+    <footer>
+        <p>Made at 🏠 by <a href="https://siddharthsharma.io" target="_blank">Siddharth Sharma</a></p>
+    </footer>
+</body>
+
+</html>
