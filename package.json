@@ -1,0 +1,16 @@
+{
+  "name": "tweetsby",
+  "version": "1.0.0",
+  "description": "Service to view tweets by X",
+  "main": "index.js",
+  "repository": "git@github.com:sidroopdaska/tweetsby.git",
+  "author": "Siddharth Sharma <hey@siddharthsharma.io>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "express": "^4.17.1"
+  }
+}
