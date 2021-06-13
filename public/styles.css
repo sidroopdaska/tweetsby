@@ -23,3 +23,7 @@ input {
 input[type="text"] {
     width: 150px;
 }
+
+a {
+    color: #1da1f2;
+}
