@@ -66,7 +66,6 @@ const _topTweetsUrl = (username) => {
     return `https://twitter.com/search?q=${query}&f=live`
 }
 
-// TODO: Make UTC friendly
 const _todayTweetsUrl = (username) => {
     const split = username.split('@')
     username = split.length > 1 ? split[1]: split[0]
@@ -80,7 +79,7 @@ const _todayTweetsUrl = (username) => {
 
     let today = new Date();
     let tomorrow = new Date(today)
-    tomorrow.setDate(tomorrow.getDate() + 1)
+        tomorrow.setDate(tomorrow.getDate() + 1)
 
     let query = `from:${username} since:${formatDate(today)} until:${formatDate(tomorrow)}`
     query = encodeURI(query)
