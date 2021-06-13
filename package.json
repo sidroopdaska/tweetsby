@@ -1,7 +1,7 @@
 {
   "name": "tweetsby",
   "version": "1.0.0",
-  "description": "Service to view tweets by X",
+  "description": "Service to filter tweets by X",
   "main": "index.js",
   "repository": "git@github.com:sidroopdaska/tweetsby.git",
   "author": "Siddharth Sharma <hey@siddharthsharma.io>",
